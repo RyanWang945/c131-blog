@@ -15,7 +15,8 @@
       "Bash(npm install:*)",
       "Bash(vercel --version:*)",
       "Bash(vercel:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(start https://vercel.com/ryanwang945s-projects/blog-1/settings/general)"
     ]
   }
 }
