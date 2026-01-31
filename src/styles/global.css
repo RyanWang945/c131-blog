@@ -81,4 +81,18 @@
 	--tw-prose-links: var(--color-global-text);
 	--tw-prose-quotes: var(--color-quote);
 	--tw-prose-th-borders: #666;
+
+	/* Inline code styles */
+	code {
+		@apply rounded-sm bg-gray-200 px-1 py-0.5 font-mono text-sm dark:bg-gray-800;
+	}
+
+	/* Code block styles */
+	pre {
+		@apply rounded-md p-4;
+	}
+
+	pre code {
+		@apply bg-transparent p-0;
+	}
 }
